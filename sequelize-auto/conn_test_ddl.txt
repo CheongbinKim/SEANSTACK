@@ -1,0 +1,15 @@
+-- public.conn_test definition
+
+-- Drop table
+
+-- DROP TABLE public.conn_test;
+
+CREATE TABLE postgres.public.conn_test (
+	seq bigserial primary key, -- SEQ
+	app_nm varchar(128) NOT NULL -- 테스트 앱 이름
+);
+
+-- Column comments
+
+COMMENT ON COLUMN public.conn_test.seq IS 'SEQ';
+COMMENT ON COLUMN public.conn_test.app_nm IS '테스트 앱 이름';
