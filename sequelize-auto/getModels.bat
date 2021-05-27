@@ -1,0 +1,1 @@
+sequelize-auto -o "./models" -d postgres -h 10.21.4.3 -u postgres -p 5432 -x bls12#$ -e postgres -s public
