@@ -16,7 +16,7 @@ const sequelize = new Sequelize(DATABASE, USERNAME, PASSWORD, {
         schema: SCHEMANAME,
         paranoid: true, // softdelete 기능 활성
     },
-    logging: true,
+    logging: false,
     omitNull: true,
     pool: {
         max: 40,
