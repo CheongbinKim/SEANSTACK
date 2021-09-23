@@ -120,6 +120,10 @@ http {
 
 # Node.js
 ```
+# Ubuntu
+$ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+
+# CentOS
 $ curl -sL https://rpm.nodesource.com/setup_12.x | sudo bash -
 $ sudo yum install -y nodejs
 $ node -v
